@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: paypal-ipn
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
